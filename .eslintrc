@@ -1,0 +1,54 @@
+{
+  "extends": [
+    "airbnb-typescript",
+    "plugin:import/typescript",
+    "plugin:prettier/recommended",
+    "plugin:jsx-a11y/recommended",
+    "prettier",
+    "prettier/react"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["import", "extra-rules", "prettier","jsx-a11y"],
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true 
+      }
+    }
+  },
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "quotes": "off", 
+    "object-curly-spacing": ["error", "never"],
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off",
+    "react/no-unused-prop-types": "off",
+    "react/destructuring-assignment": "off",
+    "react/require-default-props": "off",
+    "react/no-danger": "off",
+    "react/jsx-curly-brace-presence": [
+      "error",
+      {
+        "props": "never",
+        "children": "never"
+      }
+    ],
+    "@typescript-eslint/quotes": ["error", "double"],
+    "extra-rules/no-commented-out-code": "error",
+    "no-plusplus": "off",
+    "react/no-array-index-key": "on",
+
+    "react/jsx-wrap-multilines": [
+      "error",
+      {
+        "prop": "ignore"
+      }
+    ],
+    "react/jsx-one-expression-per-line": "off"
+  },
+}

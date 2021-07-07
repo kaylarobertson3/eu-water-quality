@@ -1,0 +1,176 @@
+[
+  {
+    "value2018": 62.03703704,
+    "country": "al",
+    "value2008": 40,
+    "percentChange": 22.037037
+  },
+  {
+    "value2018": 84.61538462,
+    "country": "lt",
+    "value2008": 50.42735043,
+    "percentChange": 34.18803419
+  },
+  {
+    "value2018": 87.23404255,
+    "country": "si",
+    "value2008": 53.19148936,
+    "percentChange": 34.04255319
+  },
+  {
+    "value2018": 72.33201581,
+    "country": "hu",
+    "value2008": 45.45454545,
+    "percentChange": 26.87747036
+  },
+  {
+    "value2018": 97.33840304,
+    "country": "at",
+    "value2008": 71.48288973,
+    "percentChange": 25.85551331
+  },
+  {
+    "value2018": 91.11842105,
+    "country": "pt",
+    "value2008": 66.11842105,
+    "percentChange": 25
+  },
+  {
+    "value2018": 92.85714286,
+    "country": "lv",
+    "value2008": 71.42857143,
+    "percentChange": 21.42857143
+  },
+  {
+    "value2018": 92.74792486,
+    "country": "de",
+    "value2008": 76.05941459,
+    "percentChange": 16.68851027
+  },
+  {
+    "value2018": 72.69,
+    "country": "nl",
+    "value2008": 58.759,
+    "percentChange": 13.931
+  },
+  {
+    "value2018": 27.95031056,
+    "country": "pl",
+    "value2008": 19.04761905,
+    "percentChange": 8.902691511
+  },
+  {
+    "value2018": 73.33333333,
+    "country": "lu",
+    "value2008": 66.66666667,
+    "percentChange": 6.666666663
+  },
+  {
+    "value2018": 98.85057471,
+    "country": "mt",
+    "value2008": 94.25287356,
+    "percentChange": 4.597701149
+  },
+  {
+    "value2018": 56.25,
+    "country": "sk",
+    "value2008": 53.125,
+    "percentChange": 3.125
+  },
+  {
+    "value2018": 45,
+    "country": "be",
+    "value2008": 30,
+    "percentChange": 15
+  },
+  {
+    "value2018": 45,
+    "country": "cy",
+    "value2008": 30,
+    "percentChange": 15
+  },
+  {
+    "value2018": 45,
+    "country": "cz",
+    "value2008": 30,
+    "percentChange": 15
+  },
+  {
+    "value2018": 45,
+    "country": "dk",
+    "value2008": 30,
+    "percentChange": 15
+  },
+  {
+    "value2018": 45,
+    "country": "ee",
+    "value2008": 30,
+    "percentChange": 15
+  },
+  {
+    "value2018": 45,
+    "country": "el",
+    "value2008": 30,
+    "percentChange": 15
+  },
+  {
+    "value2018": 45,
+    "country": "es",
+    "value2008": 30,
+    "percentChange": 15
+  },
+  {
+    "value2018": 45,
+    "country": "fi",
+    "value2008": 30,
+    "percentChange": 15
+  },
+  {
+    "value2018": 45,
+    "country": "hr",
+    "value2008": 30,
+    "percentChange": 15
+  },
+  {
+    "value2018": 45,
+    "country": "ie",
+    "value2008": 30,
+    "percentChange": 15
+  },
+  {
+    "value2018": 45,
+    "country": "it",
+    "value2008": 30,
+    "percentChange": 15
+  },
+  {
+    "value2018": 45,
+    "country": "ro",
+    "value2008": 30,
+    "percentChange": 15
+  },
+  {
+    "value2018": 63.19875776,
+    "country": "uk",
+    "value2008": 64.13043478,
+    "percentChange": -0.9316770186
+  },
+  {
+    "value2018": 78.782453,
+    "country": "fr",
+    "value2008": 86.63085646,
+    "percentChange": -7.848403462
+  },
+  {
+    "value2018": 72.70642202,
+    "country": "se",
+    "value2008": 82.33944954,
+    "percentChange": -9.633027523
+  },
+  {
+    "value2018": 52.63157895,
+    "country": "bg",
+    "value2008": 74.73684211,
+    "percentChange": -22.10526316
+  }
+]
