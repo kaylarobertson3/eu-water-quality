@@ -12,7 +12,7 @@
     "@vx/group": "^0.0.190",
     "@vx/responsive": "^0.0.189",
     "@vx/scale": "^0.0.190",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "babel-plugin-styled-components": "^1.10.6",
     "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-config-react-app": "^6.0.0",
