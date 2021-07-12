@@ -12,7 +12,7 @@ import AccordionDetails from "@material-ui/core/AccordionDetails";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import {KEY_TEXT} from "@src/constant";
 
-const API_KEY = process.env.API_KEY;
+const API_KEY = process.env.GATSBY_API_KEY;
 const BERLIN_COORDS = [13.405, 52.52];
 const DEFAULT_DISTANCE_PARAM = 50;
 

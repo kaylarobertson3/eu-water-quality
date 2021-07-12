@@ -5,7 +5,7 @@ import {QUALITY_LEVEL, getQualityText} from "@src/constant";
 import MapLayer from "@src/components/MapLayer";
 import {COLOR, BREAKPOINT} from "@src/theme";
 
-const ACCESS_TOKEN = process.env.MAPBOX_ACCESS_TOKEN;
+const ACCESS_TOKEN = process.env.GATSBY_MAPBOX_ACCESS_TOKEN;
 
 let mapboxgl;
 let ReactMapboxGl = {};
