@@ -160,21 +160,21 @@ class MapContainer extends React.Component<MapProps, MapState> {
         >
           <ZoomControl />
           <RotationControl />
-          {Object.keys(qualityLevel2018).map(function(key, index) {
-            const qualityGroup = key;
-            if (qualityLevel2018[key].length > 0) {
-              return (
-                <MapLayer
-                  key={`map-layer-${index}`}
-                  qualityGroup={qualityGroup}
-                  array={qualityLevel2018[key]}
-                  layerType="circle"
-                  onClick={openPopup}
-                />
-              );
-            }
-          })}
-
+          {nearbyLakes &&
+            Object.keys(qualityLevel2018).map(function(key, index) {
+              const qualityGroup = key;
+              if (qualityLevel2018[key].length > 0) {
+                return (
+                  <MapLayer
+                    key={`map-layer-${index}`}
+                    qualityGroup={qualityGroup}
+                    array={qualityLevel2018[key]}
+                    layerType="circle"
+                    onClick={openPopup}
+                  />
+                );
+              }
+            })}
           {popupOpen && popupData && (
             <Popup
               style={{padding: 0, minWidth: "100px", maxWidth: "200px"}}
