@@ -10,7 +10,8 @@ const TextWrapper = styled.div`
 
 const Title = styled.h1`
   margin: 0 0 1.5rem 0;
-  font-size: 40px;
+  font-size: 38px;
+  font-weight: 400;
   line-height: 1.2;
 
   @media only screen and (max-width: 600px) {

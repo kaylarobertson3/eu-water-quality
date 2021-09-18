@@ -30,7 +30,7 @@ const Footer = styled.footer`
 
 const Text = styled.p`
   align-self: flex-start;
-  font-size: 15px;
+  font-size: 14px;
   margin: 0;
 `;
 
@@ -40,7 +40,7 @@ const Layout = ({children}) => {
       <Main>{children}</Main>
       <Footer>
         <Text>
-          Kayla Robertson | Created during the academy program at <a href="http://sapera.com/">Sapera</a>
+          Kayla Robertson | Created during the academy program at <a href="http://sapera.com/">Sapera</a> in 2019
         </Text>
       </Footer>
     </Site>
