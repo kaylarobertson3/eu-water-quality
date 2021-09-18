@@ -38,6 +38,7 @@ const MapWrap = styled.div`
   width: 100%;
   .mapboxgl-map {
     height: 70vh;
+    font-family: "Source Sans Pro", sans-serif;
   }
 
   ${BREAKPOINT.m`
@@ -53,27 +54,26 @@ const PopupText = styled.div`
   justify-content: center;
   flex-direction: column;
   align-items: flex-start;
-  margin: 0.7rem 0;
   h4 {
-    margin: 2px 0 15px 0;
+    margin: 2px 0 10px 0;
     font-size: 16px;
     font-weight: 300;
   }
   p {
-    margin: 2px 0;
+    margin: 4px 0;
     font-size: 14px;
     font-weight: 300;
   }
 `;
 
 const TooltipRating = styled.span`
-  background: ${props => props.color};
-  opacity: 0.4;
+  background: ${props => props.color + "80"};
   padding: 3px 5px;
+  margin-left: 4px;
 `;
 
 const TooltipLink = styled.a`
-  margin: 2px 0 0 0;
+  margin: 4px 0 0 0;
   text-decoration: none;
   color: black;
   font-size: 14px;
@@ -183,11 +183,11 @@ class MapContainer extends React.Component<MapProps, MapState> {
               {popupData && (
                 <PopupText>
                   <h4 style={{textTransform: "capitalize"}}>{popupData["name"].toLowerCase()}</h4>
-                  <p style={{marginBottom: "5px"}}>Recent water quality</p>
+                  <p style={{marginBottom: "5px"}}>Recent water quality:</p>
                   {tooltipRecentYears.reverse().map(year => {
                     return (
                       <p>
-                        {year}:{" "}
+                        {year}:
                         <TooltipRating color={getColor(popupData[year])}>
                           {getQualityText(popupData[year])}
                         </TooltipRating>

@@ -37,5 +37,5 @@ export const TYPE_DESKTOP = {
   h2: "57px",
   h3: "27px",
   h4: "19px",
-  p: "19px",
+  p: "18px",
 };

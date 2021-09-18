@@ -79,7 +79,6 @@ const StyledAccordion = styled(Accordion)`
 const AccordionTitle = styled.h4`
   font-weight: lighter;
   margin: 0;
-  padding-left: 16px;
 `;
 
 const FilterByCity = () => {

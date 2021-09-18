@@ -9,15 +9,25 @@ import Error from "@src/components/Error";
 
 const SearchInput = styled(TextField)`
   width: 100%;
-  font: "gravur-cond";
+  font-family: "Source Sans Pro", sans-serif;
   margin-right: 0;
   background: ${COLOR.white};
   .MuiFormLabel-root {
-    font-family: "gravur-cond";
+    font-family: "Source Sans Pro", sans-serif;
   }
   fieldset {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+  }
+
+  .MuiInputBase-root {
+    font-family: "Source Sans Pro", sans-serif;
+  }
+
+  #search-text-field-label {
+    color: black;
+    font-weight: 300;
+    line-height: 14px;
   }
 `;
 
